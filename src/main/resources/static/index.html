@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FloLive</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/app.js"></script>
+    <!-- TODO these color picker maybe change later -->
+    <script src="https://yui-s.yahooapis.com/3.17.2/build/yui/yui-min.js"></script>
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!</h2></noscript>
+<div id="main-content" class="container">
+    <div class="sliders yui3-skin-sam">
+        <dl>
+            <dt>R <span id="r-val" class="val"></span></dt>
+            <dd id="r-slider"></dd>
+
+            <dt>G <span id="g-val" class="val"></span></dt>
+            <dd id="g-slider"></dd>
+
+            <dt>B <span id="b-val" class="val"></span></dt>
+            <dd id="b-slider"></dd>
+        </dl>
+
+<!--                <div>-->
+<!--                    <span>R <span id="r-val" class="val"></span></span>-->
+<!--                    <span id="start" class="borders">0<span><span id="r-slider"></span><span id="end">255<span>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <span>G <span id="g-val" class="val"></span></span>-->
+<!--                    <dd id="g-slider"></dd>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <span>B <span id="b-val" class="val"></span></span>-->
+<!--                    <dd id="b-slider"></dd>-->
+<!--                </div>-->
+    </div>
+    <div class="color"></div>
+</div>
+</body>
+</html>
