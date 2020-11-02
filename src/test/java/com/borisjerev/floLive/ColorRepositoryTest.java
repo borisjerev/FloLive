@@ -20,7 +20,7 @@ public class ColorRepositoryTest {
     private ColorRepository colorRepository;
 
     @Test
-    public void whenFindByName_thenReturnEmployee() {
+    public void return_right_color() {
         int red = 0;
         int green = 0;
         int blue = 0;
